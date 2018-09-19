@@ -1,0 +1,7 @@
+[package]
+name = "flatbuf_example"
+version = "0.1.0"
+authors = ["Mario Cao <mario@stampery.co>"]
+
+[dependencies]
+flatbuffers = "0.4.0"
