@@ -1,0 +1,15 @@
+[package]
+name = "capnproto_example"
+version = "0.1.0"
+authors = ["Mario Cao <mario@stampery.co>"]
+
+[[bin]]
+
+name = "addressbook"
+path = "src/addressbook.rs"
+
+[build-dependencies]
+capnpc = "0.9.0"
+
+[dependencies]
+capnp = "0.9.0"

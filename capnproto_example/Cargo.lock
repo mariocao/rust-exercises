@@ -1,0 +1,33 @@
+[[package]]
+name = "byteorder"
+version = "1.2.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "capnp"
+version = "0.9.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "byteorder 1.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "capnpc"
+version = "0.9.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "capnp 0.9.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "capnproto_example"
+version = "0.1.0"
+dependencies = [
+ "capnp 0.9.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "capnpc 0.9.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum byteorder 1.2.6 (registry+https://github.com/rust-lang/crates.io-index)" = "90492c5858dd7d2e78691cfb89f90d273a2800fc11d98f60786e5d87e2f83781"
+"checksum capnp 0.9.0 (registry+https://github.com/rust-lang/crates.io-index)" = "b3cfa57795aeab467713586aa427c82c9ea0bf917c641c95cd7966f0681ecd80"
+"checksum capnpc 0.9.0 (registry+https://github.com/rust-lang/crates.io-index)" = "6f85b818d7d9d63ca794b96b00ff28e2c44cfeeec6adb44fa4b4de8e05eb4e75"
