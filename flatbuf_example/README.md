@@ -18,7 +18,7 @@ make
 
 From the current repository, compile the flat buffer example with `flatc` as:
 ```bash
-.<PATH_TO_FLATC>/flatc -o src/ --rust ../protos/monster.fbs 
+.<PATH_TO_FLATC>/flatc -o src/ --rust ../schemas/monster.fbs 
 ```
 Execute example as:
 ```bash
